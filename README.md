@@ -29,3 +29,9 @@ Install Biopython with:
 
 ```bash
 pip install biopython
+
+
+**## Usage**
+./fetch_ncbi_source_from_csv sample_input.csv -o sample_output.csv
+
+
