@@ -5,8 +5,6 @@ import argparse
 import re
 import csv
 
-# Set your NCBI email (required for Entrez API)
-Entrez.email = "your_email@example.com"  # Replace with your email
 
 # Parse command-line arguments
 parser = argparse.ArgumentParser(description="Fetch NCBI GenBank source section from CSV file and save to another CSV.")
